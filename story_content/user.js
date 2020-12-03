@@ -2,70 +2,70 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5t6FIBn6KPy":
+      case "6oYGWNthdwR":
         Script1();
         break;
-      case "6DCnghOi8R2":
+      case "5m6oM6LEJhE":
         Script2();
         break;
-      case "5yk0qatG0Pd":
+      case "5oEC2ZpyPAX":
         Script3();
         break;
-      case "5XTgI1k4qUM":
+      case "69uF4kaKCTi":
         Script4();
         break;
-      case "6Lzrd3Rk3UG":
+      case "5oxHDNdsi7S":
         Script5();
         break;
-      case "6NwXu2E5KJ4":
+      case "6JgS9o438ha":
         Script6();
         break;
-      case "67DhrpM9BA8":
+      case "6PowkdvA967":
         Script7();
         break;
-      case "5nwS4iapEof":
+      case "5cXYMzxpNKj":
         Script8();
         break;
-      case "6avH6qJqgTZ":
+      case "6lBhE6yr4K0":
         Script9();
         break;
-      case "6fkhvI6PeZ0":
+      case "5ZBsghQQ8in":
         Script10();
         break;
-      case "5X8TL9th8iB":
+      case "6WolxKorVm5":
         Script11();
         break;
-      case "6TnhGhRGkwE":
+      case "5yQ6ATLVATi":
         Script12();
         break;
-      case "6mOIFP2y6E8":
+      case "6Gfx5JAqSqt":
         Script13();
         break;
-      case "6AYsZRDuRNz":
+      case "61wCIWBRtNH":
         Script14();
         break;
-      case "5gRqvKriKqG":
+      case "5sihF8ibnn1":
         Script15();
         break;
-      case "5o5goZtOqiq":
+      case "6ppM1IfvMCE":
         Script16();
         break;
-      case "6JXdNl9ClBF":
+      case "6YWZYmjjCON":
         Script17();
         break;
-      case "69Ucn1AhlBQ":
+      case "5dsuV5Ra4b8":
         Script18();
         break;
-      case "6PZwc1sIWuz":
+      case "6o48Mn2Jyxg":
         Script19();
         break;
-      case "5saKfgoGUAw":
+      case "6YtBYEglz3E":
         Script20();
         break;
-      case "6DqQJeZBKRj":
+      case "5WIzeU58jJ9":
         Script21();
         break;
-      case "5X8NUIyTcWB":
+      case "6750c3fqWof":
         Script22();
         break;
   }
@@ -260,21 +260,22 @@ audio.play();
 function Script8()
 {
   var audio = document.getElementById('bgSong');
-audio.volume = 0.2;
+audio.play();
+
 
 }
 
 function Script9()
 {
   var audio = document.getElementById('bgSong');
-audio.volume = 0.0;
+audio.pause();
 
 }
 
 function Script10()
 {
   var audio = document.getElementById('bgSong');
-audio.volume = 0.0;
+audio.pause();
 
 }
 
@@ -345,14 +346,14 @@ audio.play();
 function Script13()
 {
   var audio = document.getElementById('bgSong');
-audio.volume = 0.2;
+audio.play();
 
 }
 
 function Script14()
 {
   var audio = document.getElementById('bgSong');
-audio.volume = 0.0;
+audio.pause(); 
 
 }
 
