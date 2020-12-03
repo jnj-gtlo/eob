@@ -2,46 +2,46 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5dmwsVX1VlL":
+      case "5eFYcVuK7R2":
         Script1();
         break;
-      case "5VV2tks3CkP":
+      case "69GvXOa8ha3":
         Script2();
         break;
-      case "6OVL54Kvc10":
+      case "5WNv2rUMG0P":
         Script3();
         break;
-      case "6ac1jvAMUHj":
+      case "6FZJMP5W3SO":
         Script4();
         break;
-      case "6i38W8bytZb":
+      case "5eor4fMtCd3":
         Script5();
         break;
-      case "6pOMIVqYRyt":
+      case "63NDY6LGGB6":
         Script6();
         break;
-      case "6pPaMZB3qMh":
+      case "6clfkHXkKKM":
         Script7();
         break;
-      case "5eYfL0b8hOt":
+      case "6gN5oBIoGhB":
         Script8();
         break;
-      case "6U8spzmf6GI":
+      case "6n1exm86jxj":
         Script9();
         break;
-      case "5dX78PybjQ7":
+      case "62cbe6KWDQY":
         Script10();
         break;
-      case "6PqaYH8tVVD":
+      case "5eAQ67w1SVO":
         Script11();
         break;
-      case "6C7NpEzXHE8":
+      case "6B6jvPAPMhT":
         Script12();
         break;
-      case "6aiK9n8XJhx":
+      case "6UE7rwnH8zp":
         Script13();
         break;
-      case "6aGsHR1CB6u":
+      case "680MLiXr6wp":
         Script14();
         break;
   }
@@ -195,6 +195,8 @@ audio.src=Location+"TheEpicHero.mp3";
 audio.load();
 audio.play();
 
+}else{
+audio.play();
 }
 
 
@@ -223,7 +225,10 @@ this.Location= player.GetVar("location");
 var audio = document.getElementById('bgSong');
 audio.src=Location+"TheEpicHero.mp3";
 audio.load();
+audio.play();
 
+}else{
+audio.play();
 }
 
 
@@ -275,6 +280,8 @@ audio.src=Location+"TheEpicHero.mp3";
 audio.load();
 audio.play();
 
+}else{
+alert ("Audio was aready injected.");
 }
 
 
@@ -304,6 +311,8 @@ audio.src=Location+"TheEpicHero.mp3";
 audio.load();
 audio.play();
 
+}else{
+alert ("Audio was aready injected.");
 }
 
 
