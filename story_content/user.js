@@ -2,46 +2,46 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5eFYcVuK7R2":
+      case "5hjE4Y5gCet":
         Script1();
         break;
-      case "69GvXOa8ha3":
+      case "5ZZif4R0Wvy":
         Script2();
         break;
-      case "5WNv2rUMG0P":
+      case "6T1ItJmxpNQ":
         Script3();
         break;
-      case "6FZJMP5W3SO":
+      case "6ciayNTryUL":
         Script4();
         break;
-      case "5eor4fMtCd3":
+      case "6Iz9uBmamPS":
         Script5();
         break;
-      case "63NDY6LGGB6":
+      case "6OTd1U88eLr":
         Script6();
         break;
-      case "6clfkHXkKKM":
+      case "5nNeXej2m5Z":
         Script7();
         break;
-      case "6gN5oBIoGhB":
+      case "5ZrPXxXO0CJ":
         Script8();
         break;
-      case "6n1exm86jxj":
+      case "5weFUZ5G3Oe":
         Script9();
         break;
-      case "62cbe6KWDQY":
+      case "5xyGd0TgIIx":
         Script10();
         break;
-      case "5eAQ67w1SVO":
+      case "5zn8d6AYVlw":
         Script11();
         break;
-      case "6B6jvPAPMhT":
+      case "6brRgM1dmil":
         Script12();
         break;
-      case "6UE7rwnH8zp":
+      case "5Vt8gmJrZER":
         Script13();
         break;
-      case "680MLiXr6wp":
+      case "6PNEbcPWSct":
         Script14();
         break;
   }
@@ -270,9 +270,14 @@ function add_line() {
     head.appendChild(line);
 }
 
+function load_test(){
+alert("Fetched!");
+}
+
 //but we only want to add these once!
 if(document.getElementById('bgSong')==null){
-	add_line();
+	//add_line();
+load_test();
 var player = GetPlayer();
 this.Location= player.GetVar("location");
 var audio = document.getElementById('bgSong');
@@ -281,9 +286,9 @@ audio.load();
 audio.play();
 
 }else{
-alert ("Audio was aready injected.");
+var id = document.getElementById('bgSong');
+alert (id);
 }
-
 
 }
 
@@ -301,9 +306,14 @@ function add_line() {
     head.appendChild(line);
 }
 
+function load_test(){
+alert("Fetched!");
+}
+
 //but we only want to add these once!
 if(document.getElementById('bgSong')==null){
-	add_line();
+	//add_line();
+load_test();
 var player = GetPlayer();
 this.Location= player.GetVar("location");
 var audio = document.getElementById('bgSong');
@@ -312,7 +322,8 @@ audio.load();
 audio.play();
 
 }else{
-alert ("Audio was aready injected.");
+var id = document.getElementById('bgSong');
+alert (id);
 }
 
 
