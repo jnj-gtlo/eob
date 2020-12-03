@@ -2,46 +2,46 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5ga4BLJfUM9":
+      case "5dmwsVX1VlL":
         Script1();
         break;
-      case "5bo6zgURfoB":
+      case "5VV2tks3CkP":
         Script2();
         break;
-      case "5ViRGd8kJUI":
+      case "6OVL54Kvc10":
         Script3();
         break;
-      case "6iZr4pYTUN7":
+      case "6ac1jvAMUHj":
         Script4();
         break;
-      case "6OkptZmvaG6":
+      case "6i38W8bytZb":
         Script5();
         break;
-      case "5uuU6tp1Hod":
+      case "6pOMIVqYRyt":
         Script6();
         break;
-      case "5pcmqbAdTRi":
+      case "6pPaMZB3qMh":
         Script7();
         break;
-      case "65CT2mdwSwu":
+      case "5eYfL0b8hOt":
         Script8();
         break;
-      case "6UqjxzBLs6P":
+      case "6U8spzmf6GI":
         Script9();
         break;
-      case "6FU2xdGMHUz":
+      case "5dX78PybjQ7":
         Script10();
         break;
-      case "5otrVgUOHuL":
+      case "6PqaYH8tVVD":
         Script11();
         break;
-      case "5dT303kFGJb":
+      case "6C7NpEzXHE8":
         Script12();
         break;
-      case "6kHrYuZVE5r":
+      case "6aiK9n8XJhx":
         Script13();
         break;
-      case "5itbEAdpiaP":
+      case "6aGsHR1CB6u":
         Script14();
         break;
   }
@@ -186,8 +186,7 @@ function add_line() {
 //but we only want to add these once!
 if(document.getElementById('bgSong')==null){
 	add_line();
-var audio = document.getElementById('bgSong');
-audio.play();
+
 
 var player = GetPlayer();
 this.Location= player.GetVar("location");
@@ -218,7 +217,6 @@ function add_line() {
 //but we only want to add these once!
 if(document.getElementById('bgSong')==null){
 	add_line();
-var audio = document.getElementById('bgSong');
 
 var player = GetPlayer();
 this.Location= player.GetVar("location");
@@ -270,9 +268,6 @@ function add_line() {
 //but we only want to add these once!
 if(document.getElementById('bgSong')==null){
 	add_line();
-var audio = document.getElementById('bgSong');
-audio.play();
-
 var player = GetPlayer();
 this.Location= player.GetVar("location");
 var audio = document.getElementById('bgSong');
@@ -302,8 +297,6 @@ function add_line() {
 //but we only want to add these once!
 if(document.getElementById('bgSong')==null){
 	add_line();
-var audio = document.getElementById('bgSong');
-
 var player = GetPlayer();
 this.Location= player.GetVar("location");
 var audio = document.getElementById('bgSong');
