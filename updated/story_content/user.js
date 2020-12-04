@@ -2,46 +2,46 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6qTFRIapxv0":
+      case "6VfQPA6awU5":
         Script1();
         break;
-      case "6NXeqedcRdy":
+      case "6KJvdDLIu8c":
         Script2();
         break;
-      case "6bo7GMPpQ8b":
+      case "6XXydFNcO7n":
         Script3();
         break;
-      case "6ST7x54wGTe":
+      case "5qTEXDgTTFt":
         Script4();
         break;
-      case "5faBjw6RbdI":
+      case "6XcXiWMl9zQ":
         Script5();
         break;
-      case "6nldnM2VTbO":
+      case "5nAylWZjWZ2":
         Script6();
         break;
-      case "6bcyKJt2Trz":
+      case "5swEmaWpv9p":
         Script7();
         break;
-      case "6J9AAgV1N9J":
+      case "61XQ8UoIfDF":
         Script8();
         break;
-      case "6LGbGkNwkCD":
+      case "6NLUB7iHjZt":
         Script9();
         break;
-      case "6IsNoEMZoRw":
+      case "6DQ6BT3b3Ag":
         Script10();
         break;
-      case "640xoTFYqMq":
+      case "5bYYEkjpkIu":
         Script11();
         break;
-      case "6XQ1tbCF0dm":
+      case "6Qq2Du7OO3B":
         Script12();
         break;
-      case "5uYQXqChlsA":
+      case "5wUo83J3TVv":
         Script13();
         break;
-      case "5tagBQaULBZ":
+      case "6StvVHmt2Du":
         Script14();
         break;
   }
@@ -96,7 +96,7 @@ player.SetVar("FlagBrowser", "Safari");
         break;
 }
 
-//alert('You are using ' + userbrowser + ' browser');
+alert('You are using ' + userbrowser + ' browser');
 }
 
 function Script2()
