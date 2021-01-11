@@ -26,6 +26,7 @@
     preload="auto"
     poster="1005_Bandaid_100_Thumb.png"
     data-setup='{}'
+    onClick="return testFunction(this)"
   >
     <source src="1005_BandAid_100_Final.mp4" type="video/mp4" />
     <p class="vjs-no-js">
@@ -40,16 +41,9 @@
 	
   <script src="custom/video.js"></script>
   <script>
-		/*var player = videojs("jnj-video");
-		player.bigPlayButton.on('click', function(){
-    	alert("Clicked!");
-	});*/
-
-   $(document).ready(function(){
-   $('.vjs-big-play-button').click(function() {
-        alert("New Script!");
-   });
- });
+     function testFunction(current){
+     alert("Works!");
+  }
 	</script>
 </body>
 </body>
