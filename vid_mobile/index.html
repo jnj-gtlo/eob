@@ -41,10 +41,15 @@
   <script src="custom/video.js"></script>
   <script>
 		var player = videojs("jnj-video");
-		player.bigPlayButton.on('click touchstart', function(){
+		player.bigPlayButton.on('click', function(){
     	alert("Clicked!");
-      e.preventDefault();
 	});
+
+    $(document).ready(function(){
+   $('.bigPlayButton').click(function() {
+        alert("Clicked!");
+   });
+ });
 	</script>
 </body>
 </body>
